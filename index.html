@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Stats & Networking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz-header">
+            <p id="question-counter">Question <span id="current-question">1</span> of <span id="total-questions">10</span></p>
+            <p id="timer">Time: <span id="time-left">15</span>s</p>
+            <p id="score">Score: <span id="current-score">0</span></p>
+        </div>
+        <h2 id="question-text"></h2>
+        <div id="options"></div>
+        <button id="next-btn" style="display:none;">Next</button>
+        <div id="result" style="display:none;">
+            <h2 id="final-score"></h2>
+            <p id="high-score"></p>
+            <button id="restart">Retry Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
